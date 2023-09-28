@@ -105,7 +105,29 @@
     },
     {
       "src": "UserGuide.md",
-      "headings": {},
+      "title": "User Guide",
+      "headings": {
+        "staff-snap-user-guide": "Staff-Snap User Guide",
+        "user-interface-guide": "User Interface Guide",
+        "notation-guide": "Notation Guide",
+        "features": "Features",
+        "add-adding-a-new-employee-entry": "add : Adding a new employee entry",
+        "edit-editing-an-employee-entry": "edit : Editing an employee entry",
+        "ui-mockup": "UI mockup:\n",
+        "list-listing-all-employee-entries": "list : Listing all employee entries",
+        "ui-mockup-2": "UI mockup:\n",
+        "delete-deleting-an-employee-entry": "delete : Deleting an employee entry",
+        "find-finding-an-employee-by-name": "find : Finding an employee by name",
+        "ui-mockup-3": "UI mockup:\n",
+        "sort-sorting-employees-by-descriptor": "sort: Sorting employees by descriptor",
+        "ui-mockup-4": "UI mockup:\n",
+        "filter-filtering-employees-by-descriptor-criteria": "filter: Filtering employees by descriptor criteria",
+        "saving-the-data": "Saving the data",
+        "ui-mockup-there-is-no-ui-to-display-for-this-function": "UI mockup:\nThere is no UI to display for this function.",
+        "clear-purging-all-employee-entries": "clear : Purging all employee entries",
+        "help-listing-all-commands": "help : Listing all commands",
+        "exit-exiting-the-program": "exit : Exiting the program"
+      },
       "headingKeywords": {}
     },
     {
