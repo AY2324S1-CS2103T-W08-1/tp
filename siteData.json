@@ -7,11 +7,11 @@
       "headings": {
         "about-us": "About Us",
         "project-team": "Project team",
-        "john-doe": "John Doe",
-        "jane-doe": "Jane Doe",
-        "johnny-doe": "Johnny Doe",
-        "jean-doe": "Jean Doe",
-        "james-doe": "James Doe"
+        "craigton-lian-ee-john": "Craigton Lian Ee John",
+        "austin-huang-de-yu": "Austin Huang De Yu",
+        "ivan-lee-kai-kiat": "Ivan Lee Kai Kiat",
+        "celestine-tan-yen-tong": "Celestine Tan Yen Tong",
+        "wang-jingting": "Wang Jingting"
       },
       "headingKeywords": {}
     },
@@ -122,10 +122,31 @@
       "headingKeywords": {}
     },
     {
-      "src": "team/johndoe.md",
-      "title": "John Doe's Project Portfolio Page",
+      "src": "team/celestinetan03.md",
+      "title": " Project Portfolio Page",
       "headings": {
-        "project-addressbook-level-3": "Project: AddressBook Level 3"
+        "project-staff-snap": "Project: Staff-Snap"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/craigtonlian.md",
+      "headings": {
+        "project-staff-snap": "Project: Staff-Snap"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/ivanleekk.md",
+      "headings": {
+        "project-staff-snap": "Project: Staff-Snap"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/jingting1412.md",
+      "headings": {
+        "project-staff-snap": "Project: Staff-Snap"
       },
       "headingKeywords": {}
     },
