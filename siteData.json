@@ -153,8 +153,11 @@
     },
     {
       "src": "team/craigtonlian.md",
+      "title": "Project Portfolio Page",
       "headings": {
-        "project-staff-snap": "Project: Staff-Snap"
+        "project-staff-snap": "Project: Staff-Snap",
+        "overview": "Overview",
+        "summary-of-contributions": "Summary of Contributions"
       },
       "headingKeywords": {}
     },
