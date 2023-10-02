@@ -145,9 +145,12 @@
     },
     {
       "src": "team/celestinetan03.md",
-      "title": " Project Portfolio Page",
+      "title": "Project Portfolio Page",
       "headings": {
-        "project-staff-snap": "Project: Staff-Snap"
+        "project-staff-snap": "Project: Staff-Snap",
+        "celestine-tan-s-project-portfolio-page": "Celestine Tan's Project Portfolio Page",
+        "overview": "Overview",
+        "summary-of-contributions": "Summary of Contributions"
       },
       "headingKeywords": {}
     },
