@@ -137,7 +137,7 @@ with(this){return _c('p',[_v("Now that we have all the information that we need,
 with(this){return _c('h3',{attrs:{"id":"add-a-new-remark-class"}},[_v("Add a new "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Remark")]),_v(" class"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#add-a-new-remark-class","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_v("Create a new "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Remark")]),_v(" in "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("seedu.staffsnap.model.employee")]),_v(". Since a "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Remark")]),_v(" is a field that is similar to "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Address")]),_v(", we can reuse a significant bit of code.")])}
+with(this){return _c('p',[_v("Create a new "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Remark")]),_v(" in "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("seedu.staffsnap.model.applicant")]),_v(". Since a "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Remark")]),_v(" is a field that is similar to "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Address")]),_v(", we can reuse a significant bit of code.")])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_v("A copy-paste and search-replace later, you should have something like "),_c('a',{attrs:{"href":"https://github.com/se-edu/addressbook-level3/commit/4516e099699baa9e2d51801bd26f016d812dedcc#diff-41bb13c581e280c686198251ad6cc337cd5e27032772f06ed9bf7f1440995ece"}},[_v("this")]),_v(". Note how "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Remark")]),_v(" has no constrains and thus does not require input\nvalidation.")])}
@@ -290,6 +290,6 @@ with(this){return _c('h2',{attrs:{"id":"conclusion"}},[_v("Conclusion"),_c('a',{
 with(this){return _c('p',[_v("This concludes the tutorial for adding a new "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Command")]),_v(" to AddressBook.")])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.1.0")]),_v(", generated on Fri, 13 Oct 2023, 17:56:28 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.1.0")]),_v(", generated on Sat, 14 Oct 2023, 17:20:09 GMT+8]")])])])}
 }];
   
