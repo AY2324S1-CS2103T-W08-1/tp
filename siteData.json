@@ -117,6 +117,7 @@
         "delete-deleting-an-applicant": "delete : Deleting an applicant",
         "find-finding-an-applicant-by-name": "find : Finding an applicant by name",
         "sort-sorting-applicants-by-descriptor": "sort: Sorting applicants by descriptor",
+        "addi-adding-an-interview-to-an-applicant": "addi : Adding an interview to an applicant",
         "clear-clearing-all-applicant-entries": "clear : Clearing all applicant entries",
         "exit-exiting-the-program": "exit : Exiting the program",
         "filter-filtering-applicants-by-descriptor-criteria-coming-soon": "filter: Filtering applicants by descriptor criteria [coming soon]",
