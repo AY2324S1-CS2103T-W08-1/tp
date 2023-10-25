@@ -121,6 +121,8 @@
         "sort-sorting-applicants-by-descriptor": "sort: Sorting applicants by descriptor",
         "addi-adding-an-interview-to-an-applicant": "addi : Adding an interview to an applicant",
         "editi-editing-an-interview-of-an-applicant": "editi : Editing an interview of an applicant",
+        "deletei-deleting-an-interview-from-an-applicant": "deletei : Deleting an interview from an applicant",
+        "status-editing-an-applicant-status": "status : Editing an applicant status",
         "clear-clearing-all-applicant-entries": "clear : Clearing all applicant entries",
         "exit-exiting-the-program": "exit : Exiting the program",
         "saving-the-data": "Saving the data",
