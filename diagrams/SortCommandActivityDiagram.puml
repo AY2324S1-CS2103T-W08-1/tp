@@ -1,0 +1,22 @@
+@startuml
+'https://plantuml.com/activity-diagram-beta
+
+start
+:User enters sort command syntax;
+:ApplicantBookParser parses command_word;
+:SortCommandParser parses arguments;
+if (Descriptor is present) then (true)
+  :Execute SortCommand;
+  :Update Applicant Descriptor;
+  :Refresh Applicant List;
+  :Display success message;
+  :Show updated list in GUI;
+  stop
+else (false)
+    :Throw ParseException with
+    invalid command format
+    message and proper Sort
+    syntax;
+    :Display error message;
+    stop
+@enduml

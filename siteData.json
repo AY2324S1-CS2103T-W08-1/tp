@@ -38,7 +38,6 @@
     },
     {
       "src": "DeveloperGuide.md",
-      "title": "Developer Guide",
       "headings": {
         "staff-snap-developer-guide": "Staff-Snap Developer Guide",
         "acknowledgements": "Acknowledgements",
@@ -55,6 +54,7 @@
         "proposed-data-archiving": "[Proposed] Data archiving",
         "help-feature": "Help feature",
         "confirmation-clear-command": "Confirmation + Clear command",
+        "sort-feature": "Sort feature",
         "documentation-logging-testing-configuration-dev-ops": "Documentation, logging, testing, configuration, dev-ops",
         "appendix-requirements": "Appendix: Requirements",
         "product-scope": "Product scope",

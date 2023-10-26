@@ -11,7 +11,7 @@ with(this){return _c('h1',{attrs:{"id":"staff-snap-user-guide"}},[_v("Staff-Snap
 with(this){return _c('h2',{attrs:{"id":"user-interface-guide"}},[_v("User Interface Guide"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#user-interface-guide","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('a',{attrs:{"href":"/tp/images/userInterfaceGuide.png","target":"_self"}},[_c('img',{staticClass:"img-fluid",attrs:{"src":"/tp/images/userInterfaceGuide.png","alt":"User Interface Guide Example"}})])])}
+with(this){return _c('p',[_c('a',{attrs:{"href":"/tp/images/user-guide/userInterfaceGuide.png","target":"_self"}},[_c('img',{staticClass:"img-fluid",attrs:{"src":"/tp/images/user-guide/userInterfaceGuide.png","alt":"User Interface Guide Example"}})])])}
 },function anonymous(
 ) {
 with(this){return _c('h2',{attrs:{"id":"features"}},[_v("Features"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#features","onclick":"event.stopPropagation()"}})])}
@@ -23,7 +23,7 @@ with(this){return _c('h3',{attrs:{"id":"help-viewing-help"}},[_c('code',{pre:tru
 with(this){return _c('p',[_v("Format: "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("help")])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_v("UI mockup:\n"),_c('a',{attrs:{"href":"/tp/images/help.png","target":"_self"}},[_c('img',{staticClass:"img-fluid",attrs:{"src":"/tp/images/help.png","alt":"Help UI Mockup"}})])])}
+with(this){return _c('p',[_v("UI mockup:\n"),_c('a',{attrs:{"href":"/tp/images/user-guide/help.png","target":"_self"}},[_c('img',{staticClass:"img-fluid",attrs:{"src":"/tp/images/user-guide/help.png","alt":"Help UI Mockup"}})])])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{attrs:{"id":"add-adding-a-new-applicant"}},[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("add")]),_v(" : Adding a new applicant"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#add-adding-a-new-applicant","onclick":"event.stopPropagation()"}})])}
@@ -35,7 +35,7 @@ with(this){return _c('p',[_v("Format: "),_c('code',{pre:true,attrs:{"class":"hlj
 with(this){return _c('ul',[_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("add n/John Doe hp/91234567 e/johndoe@gmail.com p/Software Engineer")])]),_v(" "),_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("add n/Jane Greenwood p/Project Manager e/janeg@yahoo.com hp/91234567")])])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_v("UI mockup:\n"),_c('a',{attrs:{"href":"/tp/images/add.png","target":"_self"}},[_c('img',{staticClass:"img-fluid",attrs:{"src":"/tp/images/add.png","alt":"Add UI Mockup"}})])])}
+with(this){return _c('p',[_v("UI mockup:\n"),_c('a',{attrs:{"href":"/tp/images/user-guide/add.png","target":"_self"}},[_c('img',{staticClass:"img-fluid",attrs:{"src":"/tp/images/user-guide/add.png","alt":"Add UI Mockup"}})])])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{attrs:{"id":"edit-editing-an-applicant"}},[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("edit")]),_v(" : Editing an applicant"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#edit-editing-an-applicant","onclick":"event.stopPropagation()"}})])}
@@ -50,7 +50,7 @@ with(this){return _c('ul',[_c('li',[_v("Edits the person at the specified "),_c(
 with(this){return _c('ul',[_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("edit 1 n/Vijay Sankar Kumar")]),_v(" edits the name of the 1st applicant in the list.")]),_v(" "),_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("edit 2 hp/80081234 e/newEmail@hotmail.com")]),_v(" edits the phone number and email of the 2nd applicant in the list.")])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_v("UI mockup:\n"),_c('a',{attrs:{"href":"/tp/images/edit.png","target":"_self"}},[_c('img',{staticClass:"img-fluid",attrs:{"src":"/tp/images/edit.png","alt":"Edit UI Mockup"}})])])}
+with(this){return _c('p',[_v("UI mockup:\n"),_c('a',{attrs:{"href":"/tp/images/user-guide/edit.png","target":"_self"}},[_c('img',{staticClass:"img-fluid",attrs:{"src":"/tp/images/user-guide/edit.png","alt":"Edit UI Mockup"}})])])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{attrs:{"id":"list-listing-all-applicants"}},[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("list")]),_v(" : Listing all applicants"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#list-listing-all-applicants","onclick":"event.stopPropagation()"}})])}
@@ -59,7 +59,7 @@ with(this){return _c('h3',{attrs:{"id":"list-listing-all-applicants"}},[_c('code
 with(this){return _c('p',[_v("Format: "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("list")])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_v("UI mockup:\n"),_c('a',{attrs:{"href":"/tp/images/list.png","target":"_self"}},[_c('img',{staticClass:"img-fluid",attrs:{"src":"/tp/images/list.png","alt":"List UI Mockup"}})])])}
+with(this){return _c('p',[_v("UI mockup:\n"),_c('a',{attrs:{"href":"/tp/images/user-guide/list.png","target":"_self"}},[_c('img',{staticClass:"img-fluid",attrs:{"src":"/tp/images/user-guide/list.png","alt":"List UI Mockup"}})])])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{attrs:{"id":"delete-deleting-an-applicant"}},[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("delete")]),_v(" : Deleting an applicant"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#delete-deleting-an-applicant","onclick":"event.stopPropagation()"}})])}
@@ -74,7 +74,7 @@ with(this){return _c('ul',[_c('li',[_v("Deletes the person at the specified "),_
 with(this){return _c('ul',[_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("list")]),_v(" followed by "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("delete 2")]),_v(" deletes the 2nd person in the applicant list.")]),_v(" "),_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("sort d/name")]),_v(" followed by "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("delete 3")]),_v(" deletes the 3rd person in the sorted applicant list.")])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_v("UI mockup:\n"),_c('a',{attrs:{"href":"/tp/images/delete.png","target":"_self"}},[_c('img',{staticClass:"img-fluid",attrs:{"src":"/tp/images/delete.png","alt":"Delete UI Mockup"}})])])}
+with(this){return _c('p',[_v("UI mockup:\n"),_c('a',{attrs:{"href":"/tp/images/user-guide/delete.png","target":"_self"}},[_c('img',{staticClass:"img-fluid",attrs:{"src":"/tp/images/user-guide/delete.png","alt":"Delete UI Mockup"}})])])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{attrs:{"id":"find-finding-an-applicant-by-name"}},[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("find")]),_v(" : Finding an applicant by name"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#find-finding-an-applicant-by-name","onclick":"event.stopPropagation()"}})])}
@@ -89,7 +89,7 @@ with(this){return _c('ul',[_c('li',[_v("The search is case-insensitive, e.g. "),
 with(this){return _c('ul',[_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("find IVAN")]),_v(" finds any applicant whose name contains “ivan”.")]),_v(" "),_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("find IVAN CHEW")]),_v(" finds any applicant whose name contains “ivan” or contains “chew”.")])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_v("UI mockup:\n"),_c('a',{attrs:{"href":"/tp/images/find.png","target":"_self"}},[_c('img',{staticClass:"img-fluid",attrs:{"src":"/tp/images/find.png","alt":"Find UI Mockup"}})])])}
+with(this){return _c('p',[_v("UI mockup:\n"),_c('a',{attrs:{"href":"/tp/images/user-guide/find.png","target":"_self"}},[_c('img',{staticClass:"img-fluid",attrs:{"src":"/tp/images/user-guide/find.png","alt":"Find UI Mockup"}})])])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{attrs:{"id":"sort-sorting-applicants-by-descriptor"}},[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("sort")]),_v(": Sorting applicants by descriptor"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#sort-sorting-applicants-by-descriptor","onclick":"event.stopPropagation()"}})])}
@@ -104,7 +104,7 @@ with(this){return _c('ul',[_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inl
 with(this){return _c('ul',[_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("sort d/name")]),_v(" sorts the applicant list by name in alphabetical order.")]),_v(" "),_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("sort d/phone")]),_v(" sorts the applicant list by phone numbers in ascending order.")]),_v(" "),_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("sort d/email")]),_v(" sorts the applicant list by email in alphabetical order.")]),_v(" "),_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("sort d/position")]),_v(" sorts the applicant list by positions in alphabetical order.")]),_v(" "),_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("sort d/score")]),_v(" sorts the applicant list by score in descending order.")]),_v(" "),_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("sort d/status")]),_v(" sorts the applicant list by status in alphabetical order.")])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_v("UI mockup:\n"),_c('a',{attrs:{"href":"/tp/images/sort.png","target":"_self"}},[_c('img',{staticClass:"img-fluid",attrs:{"src":"/tp/images/sort.png","alt":"Sort UI Mockup"}})])])}
+with(this){return _c('p',[_v("UI mockup:\n"),_c('a',{attrs:{"href":"/tp/images/user-guide/sort.png","target":"_self"}},[_c('img',{staticClass:"img-fluid",attrs:{"src":"/tp/images/user-guide/sort.png","alt":"Sort UI Mockup"}})])])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{attrs:{"id":"addi-adding-an-interview-to-an-applicant"}},[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("addi")]),_v(" : Adding an interview to an applicant"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#addi-adding-an-interview-to-an-applicant","onclick":"event.stopPropagation()"}})])}
@@ -155,7 +155,7 @@ with(this){return _c('h3',{attrs:{"id":"clear-clearing-all-applicant-entries"}},
 with(this){return _c('p',[_v("Format: "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("clear")])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_v("UI mockup:\n"),_c('a',{attrs:{"href":"/tp/images/clear.png","target":"_self"}},[_c('img',{staticClass:"img-fluid",attrs:{"src":"/tp/images/clear.png","alt":"Clear UI Mockup"}})])])}
+with(this){return _c('p',[_v("UI mockup:\n"),_c('a',{attrs:{"href":"/tp/images/user-guide/clear.png","target":"_self"}},[_c('img',{staticClass:"img-fluid",attrs:{"src":"/tp/images/user-guide/clear.png","alt":"Clear UI Mockup"}})])])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{attrs:{"id":"exit-exiting-the-program"}},[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("exit")]),_v(" : Exiting the program"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#exit-exiting-the-program","onclick":"event.stopPropagation()"}})])}
@@ -173,6 +173,6 @@ with(this){return _c('h3',{attrs:{"id":"editing-the-data-file"}},[_v("Editing th
 with(this){return _c('p',[_v("Staff-Snap applicant data are saved automatically as a JSON file "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("[JAR file location]/data/applicantBook.json")]),_v(". Advanced users are welcome to update data directly by editing that data file.")])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.1.0")]),_v(", generated on Thu, 26 Oct 2023, 7:48:36 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.1.0")]),_v(", generated on Thu, 26 Oct 2023, 11:31:58 GMT+8]")])])])}
 }];
   
