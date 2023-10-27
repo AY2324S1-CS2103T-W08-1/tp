@@ -52,6 +52,8 @@
         "implementation": "Implementation",
         "proposed-undo-redo-feature": "[Proposed] Undo/redo feature",
         "proposed-data-archiving": "[Proposed] Data archiving",
+        "add-applicant-feature": "Add applicant feature",
+        "edit-applicant-feature": "Edit applicant feature",
         "help-feature": "Help feature",
         "confirmation-clear-command": "Confirmation + Clear command",
         "interview-feature": "Interview feature",
