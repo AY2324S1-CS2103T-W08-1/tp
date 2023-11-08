@@ -190,7 +190,12 @@
     },
     {
       "src": "team/austinhuang1203.md",
-      "headings": {},
+      "headings": {
+        "austin-s-project-portfolio-page": "Austin's Project Portfolio Page",
+        "project-staffsnap": "Project: Staffsnap",
+        "overview": "Overview",
+        "summary-of-contributions": "Summary of contributions"
+      },
       "headingKeywords": {}
     },
     {
