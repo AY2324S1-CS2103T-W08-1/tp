@@ -1,0 +1,35 @@
+@startuml
+'https://plantuml.com/activity-diagram-beta
+
+start
+:User enters find command syntax;
+:ApplicantBookParser and FindCommandParser
+parse arguments;
+if (command format is valid) then ([true])
+  :Execute FindCommand;
+  :Update ApplicantList;
+  :Display success message;
+  if () then ([applicants found])
+      :Show updated list in GUI;
+      stop
+  else ([no applicants found])
+  :Show empty list in GUI;
+        stop
+    endif
+
+else (false)
+label 1
+label 2
+label 3
+
+:Throw ParseException with
+invalid command format
+message and proper Find
+syntax;
+:Display error message;
+stop
+
+endif
+
+@enduml
+
