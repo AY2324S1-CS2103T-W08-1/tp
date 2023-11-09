@@ -38,6 +38,7 @@
     },
     {
       "src": "DeveloperGuide.md",
+      "title": "Developer Guide",
       "headings": {
         "staff-snap-developer-guide": "Staff-Snap Developer Guide",
         "acknowledgements": "Acknowledgements",
