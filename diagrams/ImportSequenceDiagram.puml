@@ -1,0 +1,86 @@
+@startuml
+!include style.puml
+skinparam ArrowFontStyle plain
+
+box Logic LOGIC_COLOR_T1
+participant ":LogicManager" as LogicManager LOGIC_COLOR
+participant ":ApplicantBookParser" as ApplicantBookParser LOGIC_COLOR
+participant ":ImportCommandParser" as ImportCommandParser LOGIC_COLOR
+participant "i:ImportCommand" as ImportCommand LOGIC_COLOR
+participant "CsvApplicantParser" as CsvApplicantParser << class >> LOGIC_COLOR
+participant ":CommandResult" as CommandResult LOGIC_COLOR
+end box
+
+box Model MODEL_COLOR_T1
+participant ":Model" as Model MODEL_COLOR
+participant ":ApplicantBook" as ApplicantBook MODEL_COLOR
+end box
+
+[-> LogicManager : execute("import f/demo.csv")
+activate LogicManager
+
+LogicManager -> ApplicantBookParser : parseCommand("import f/demo.csv")
+activate ApplicantBookParser
+
+create ImportCommandParser
+ApplicantBookParser -> ImportCommandParser
+activate ImportCommandParser
+
+ImportCommandParser --> ApplicantBookParser
+deactivate ImportCommandParser
+
+ApplicantBookParser -> ImportCommandParser : parse("f/demo.csv")
+activate ImportCommandParser
+
+create ImportCommand
+ImportCommandParser -> ImportCommand
+activate ImportCommand
+
+ImportCommand --> ImportCommandParser : i
+deactivate ImportCommand
+
+ImportCommandParser --> ApplicantBookParser : i
+deactivate ImportCommandParser
+'Hidden arrow to position the destroy marker below the end of the activation bar.
+ImportCommandParser -[hidden]-> ApplicantBookParser
+destroy ImportCommandParser
+
+ApplicantBookParser --> LogicManager : i
+deactivate ApplicantBookParser
+
+LogicManager -> ImportCommand : execute()
+activate ImportCommand
+
+ImportCommand -> CsvApplicantParser : parse("demo.csv")
+activate CsvApplicantParser
+
+CsvApplicantParser -> ImportCommand : applicantsToImport
+deactivate CsvApplicantParser
+
+loop for each applicant
+ImportCommand -> Model : addApplicant(applicant)
+activate Model
+
+Model -> ApplicantBook : addApplicant(applicant)
+activate ApplicantBook
+
+ApplicantBook --> Model
+deactivate ApplicantBook
+
+Model --> ImportCommand
+deactivate Model
+end
+
+create CommandResult
+ImportCommand -> CommandResult
+activate CommandResult
+
+CommandResult --> ImportCommand
+deactivate CommandResult
+
+ImportCommand --> LogicManager : result
+deactivate ImportCommand
+
+[<--LogicManager
+deactivate LogicManager
+@enduml

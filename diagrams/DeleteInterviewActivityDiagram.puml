@@ -1,0 +1,38 @@
+@startuml
+'https://plantuml.com/activity-diagram-beta
+
+start
+:User enters deletei command;
+
+:Parse user input;
+
+if () then ([valid format])
+    :Instantiate DeleteInterviewCommandParser instance;
+    :DeleteInterviewCommandParser instance parses arguments;
+    if () then ([parse is successful])
+        :Instantiate DeleteInterviewCommand instance;
+        :LogicManager executes command;
+        if () then ([applicantIndex exists])
+            if () then ([interviewIndex exists])
+            :Delete Interview from Applicant;
+            :Update Applicant score;
+            :UI updates Applicant Card;
+            :Initialise CommandResult instance;
+            :Return CommandResult instance;
+            :LogicManager parses CommandResult instance;
+            :Display response to user;
+            else ([else])
+                :Display invalid interview index error message;
+            endif
+        else ([else])
+            :Display invalid applicant index error message;
+        endif
+    else ([else])
+        :Display ParseException error message;
+    endif
+else ([else])
+:Display ParseException error message;
+endif
+stop
+
+@enduml
