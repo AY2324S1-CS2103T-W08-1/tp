@@ -1,0 +1,45 @@
+@startuml
+'https://plantuml.com/activity-diagram-beta
+
+start
+:User enters add command syntax;
+:ApplicantBookParser and AddCommandParser
+parse arguments;
+if () then ([valid format])
+  :Parse provided fields;
+  if () then ([valid values])
+    if () then ([duplicate applicant])
+      :Throw CommandException with
+      duplicate applicant message;
+      :Display error message;
+      stop
+    else ([else])
+      :Create new applicant;
+      :Add new applicant to ApplicantBook;
+      :Display success message and show updated list in GUI;
+      stop
+    endif
+  else ([else])
+    :Throw ParseException with
+    the constraints message for
+    the invalid field;
+    :Display error message;
+    stop
+  endif
+
+else ([else])
+label 1
+label 2
+label 3
+
+  :Throw ParseException with
+  invalid command format
+  message and proper Add
+  syntax;
+  :Display error message;
+  stop
+endif
+
+@enduml
+
+

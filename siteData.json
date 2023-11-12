@@ -110,7 +110,10 @@
         "filtering-applicants": "Filtering applicants",
         "importing-from-csv": "Importing from CSV",
         "appendix-planned-enhancements": "Appendix: Planned Enhancements",
-        "appendix-effort": "Appendix: Effort"
+        "appendix-effort": "Appendix: Effort",
+        "challenges-faced": "Challenges Faced",
+        "effort-required": "Effort Required",
+        "achievements": "Achievements"
       },
       "headingKeywords": {}
     },
