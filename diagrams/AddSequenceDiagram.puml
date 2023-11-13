@@ -15,10 +15,10 @@ participant ":Model" as Model MODEL_COLOR
 participant ":ApplicantBook" as ApplicantBook MODEL_COLOR
 end box
 
-[-> LogicManager : execute("add n/John Doe hp/91234567 e/johndoe@gmail.com p/Software Engineer")
+[-> LogicManager : execute("add n/John Doe hp/91234567 \ne/johndoe@gmail.com p/Software Engineer")
 activate LogicManager
 
-LogicManager -> ApplicantBookParser : parseCommand("add n/John Doe hp/91234567 e/johndoe@gmail.com p/Software Engineer")
+LogicManager -> ApplicantBookParser : parseCommand("add n/John Doe hp/91234567 \ne/johndoe@gmail.com p/Software Engineer")
 activate ApplicantBookParser
 
 create AddCommandParser
@@ -28,7 +28,7 @@ activate AddCommandParser
 AddCommandParser  --> ApplicantBookParser
 deactivate AddCommandParser
 
-ApplicantBookParser -> AddCommandParser  : parse("n/John Doe hp/91234567 e/johndoe@gmail.com p/Software Engineer")
+ApplicantBookParser -> AddCommandParser  : parse("n/John Doe hp/91234567 \ne/johndoe@gmail.com p/Software Engineer")
 activate AddCommandParser
 
 create AddCommand

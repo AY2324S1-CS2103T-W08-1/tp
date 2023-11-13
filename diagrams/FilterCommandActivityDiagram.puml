@@ -13,7 +13,7 @@ if (At least 1 argument is provided) then (true)
       :Create new FilterCommand
       from CustomFilterPredicate;
       :FilterCommand updates predicate used in
-      ModelManager with CustomFilterPredicate;
+      ModelManager with the new CustomFilterPredicate;
       :Display success message and show updated list in GUI;
       stop
   else (false)

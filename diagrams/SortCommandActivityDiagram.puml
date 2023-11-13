@@ -7,11 +7,20 @@ start
 :SortCommandParser parses arguments;
 if (Descriptor is present) then (true)
   :Execute SortCommand;
-  :Update Applicant Descriptor;
+  :Update Applicant#descriptor;
+    if (dsc/ is present) then (true)
+  :Update Applicant#isDescendingOrder \nto true;
+
+    else (false)
+  :Update Applicant#isDescendingOrder \nto false;
+  endif
+
+
   :Refresh Applicant List;
   :Display success message;
   :Show updated list in GUI;
   stop
+
 else (false)
     :Throw ParseException with
     invalid command format
