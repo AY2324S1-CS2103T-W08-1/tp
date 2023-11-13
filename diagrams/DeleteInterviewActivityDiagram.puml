@@ -21,18 +21,23 @@ if () then ([valid format])
             :Return CommandResult instance;
             :LogicManager parses CommandResult instance;
             :Display response to user;
+            stop
             else ([else])
                 :Display invalid interview index error message;
+                stop
             endif
         else ([else])
             :Display invalid applicant index error message;
+            stop
         endif
     else ([else])
         :Display ParseException error message;
+        stop
     endif
 else ([else])
 :Display ParseException error message;
-endif
 stop
+endif
+
 
 @enduml
