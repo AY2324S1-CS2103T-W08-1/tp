@@ -41,6 +41,6 @@ with(this){return _c('ul',[_c('li',[_c('strong',[_v("Documentation")]),_v(":\n")
 with(this){return _c('ul',[_c('li',[_c('strong',[_v("Community")]),_v(":\n"),_c('ul',[_c('li',[_v("PRs reviewed (with non-trivial review\ncomments): "),_c('a',{attrs:{"href":"https://github.com/AY2324S1-CS2103T-W08-1/tp/pull/108"}},[_v("#108")]),_v(", "),_c('a',{attrs:{"href":"https://github.com/AY2324S1-CS2103T-W08-1/tp/pull/129"}},[_v("#129")]),_v(", "),_c('a',{attrs:{"href":"https://github.com/AY2324S1-CS2103T-W08-1/tp/pull/210"}},[_v("#210")])]),_v(" "),_c('li',[_v("Reformatted User Guide from Google Docs for planned features to use\nGFMD instead "),_c('a',{attrs:{"href":"https://github.com/AY2324S1-CS2103T-W08-1/tp/pull/32"}},[_v("#32")])])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.1.0")]),_v(", generated on Mon, 13 Nov 2023, 16:38:23 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.1.0")]),_v(", generated on Mon, 13 Nov 2023, 20:18:08 GMT+8]")])])])}
 }];
   
